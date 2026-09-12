@@ -218,7 +218,6 @@ export default function ManualRegisterModal({ challenge, onDone, onDismiss }) {
           src={registrationUrl || undefined}
           srcDoc={registrationUrl ? undefined : tosSrc}
           title={`${serviceName} Registration`}
-          sandbox="allow-scripts allow-forms allow-same-origin allow-popups"
         />
       </div>
     </div>
